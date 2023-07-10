@@ -71,3 +71,62 @@
     background-color: #f52c2c;
     color: white;
 }
+
+.service-container{
+    height: 100vh;
+    background-image: url(../asset/image/footer-bg.png),
+        linear-gradient(rgb(0, 0, 0, 0.9), rgb(0, 0, 0, 0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.icon{
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.box{
+    text-align: center;
+    width: 150px;
+    height: 100;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.service-description{
+    width: 50%;
+}
+
+.box-set{
+    display: flex;
+}
+
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+
+.author-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.profile-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-right: 2px solid red;
+    padding: 20px;
+}
