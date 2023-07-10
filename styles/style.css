@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navigation */
+
+.nav-container {
+    display: flex;
+    background-color: #d5d2d2;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+
+}
+
+.manus {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #00ffff;
+}
+
+/* Banner */
+
+.banner-container {
+    height: 100vh;
+    background-image: url(../asset/image/background.jpg), 
+    linear-gradient(rgb(0, 0, 0,0.3), rgb(0, 0, 0,0.3));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
